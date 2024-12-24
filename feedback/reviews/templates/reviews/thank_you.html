@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html lamg="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Review</title>
-    </head>
+{% extends "reviews/base.html" %}
 
-    <body>
-        <h1>Thank you for your review!</h1>
-    </body>
-</html>
+{% block title %}Thank You{% endblock %}
+
+{% block content %}
+    <h1>Thank You</h1>
+    <p>{{ message }}</p>
+{% endblock %}
