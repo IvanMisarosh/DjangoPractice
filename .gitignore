@@ -61,7 +61,8 @@ lib64/
 parts/ 
 sdist/ 
 var/ 
-wheels/ 
+wheels/
+uploads/ 
 *.whl
 *.egg-info/ 
 .installed.cfg 
