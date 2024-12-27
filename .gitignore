@@ -63,6 +63,7 @@ sdist/
 var/ 
 wheels/
 uploads/ 
+staticfiles/
 *.whl
 *.egg-info/ 
 .installed.cfg 
